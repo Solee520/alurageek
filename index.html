@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css (1)/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="titulo-principal">
+        <h1><img src="IMAGENES/image (1).png" alt="titulo-principal"></h1>
+    </header>
+    <!--productos-->
+    <div class="contenido-general">
+    <section class="contenido">
+        <h2 class="titulo-secundario">Mis productos:</h2>
+        <div class="contenedor-items">
+        <div class="producto">
+            <p class="precio">$55.00</p>
+            <img src="IMAGENES/Anthurium.jpg" alt="Anthurium">
+            <p class="nombre">Anthurium scherzerianum Schott</p>
+            <button class="eliminar">
+                <div class="icono-eliminar" data-id="${id}>
+                <img src="IMAGENES/marca-x.png" alt="eliminar">
+            </div>
+        </button>
+        </div>
+        <div class="producto">
+            <p class="precio">$30.00</p>
+            <img src="IMAGENES/flor de loto.jpg" alt="flor de loto">
+            <p class="nombre">Nelumbo nucifera Gaertn.</p>
+            <div class="icono-eliminar">
+                <img src="IMAGENES/marca-x.png" alt="eliminar">
+            </div>
+        </div>
+        <div class="producto">
+            <p class="precio">$50.00</p>
+            <img src="IMAGENES/suculentas con maceta.jpg" alt="suculentas con maceta">
+            <p class="nombre">suculentas con maceta </p>
+            <div class="icono-eliminar">
+                <img src="IMAGENES/marca-x.png" alt="eliminar">
+            </div>
+        </div>
+        <div class="producto">
+            <p class="precio">$10.00</p>
+            <img src="IMAGENES/fitonias.jpg" alt="fitonias">
+            <p class="nombre">Nelumbo nucifera Gaertn</p>
+            <div class="icono-eliminar">
+                <img src="IMAGENES/marca-x.png" alt="eliminar">
+            </div>
+        </div>
+        <div class="producto">
+            <p class="precio">$30.00</p>
+            <img src="IMAGENES/trebol morado.jpg" alt="trebol morado">
+            <p class="nombre">Oxalis triangularis </p>
+            <div class="icono-eliminar">
+                <img src="IMAGENES/marca-x.png" alt="eliminar">
+            </div>
+        </div>
+        <div class="producto">
+            <p class="precio">$10.00</p>
+            <img src="IMAGENES/flor de loto sagrado.jpg" alt="flor de loto sagrado">
+            <p class="nombre">Nelumbo nucifera Gaertn </p>
+            <div class="icono-eliminar">
+                <img src="IMAGENES/marca-x.png" alt="eliminar">
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--formulario-->
+    <section class="formulario">
+        <h2 class="titulo-formulario">AGREGAR PRODUCTOS</h2>
+        <form class="contenido-formulario" data-formulario>
+            <input data-name placeholder="Nombre del producto" type="text" data-nombre required>
+            <input data-precio placeholder="Precio" type="text"required data-precio>
+            <input data-image placeholder="URL de la imagen" type="text" data required>
+        <div class="botones">
+            <button type="submit" class="button-submit" id="button">Enviar</button>
+            <button type="reset" class="button-borrar" id="button">Limpiar</button>
+        </div>
+    </section>
+    </div>
+    <footer class="footer">
+        <p>DESARROLADO POR SOLEDAD QUISPE</p>
+        <p>alura latam 2024</p>
+    </footer>
+    <script src="./controles.js" type="module"></script>
+</body>
+</html>

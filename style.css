@@ -1,0 +1,168 @@
+@font-face {
+    font-family:'ASTAKHOV FIRST';
+    src: url(fuentes/Astakhov-First-Simple/Astakhov\ First\ Simple.ttf)
+    }
+    .titulo-principal {
+    text-align: center;
+    background-color: #ce4895;
+    padding: 20px;
+}
+.titulo-principal img{
+    width: 180px;
+}
+
+.titulo-secundario{
+    font-family:'ASTAKHOV FIRST';
+    font-size: 30px;
+    padding: 20px;
+    position: absolute;
+    top: 120px;
+    left: 240px;
+}
+.contenido-general{
+    display: flex;
+    margin-top: 90px;
+    width: 100%;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    width: 90%;
+    padding: 30px;
+    }
+.contenedor-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    overflow-y: auto;
+    position: relative;
+    align-self:flex-start;
+    width: 100%;
+}
+.producto{
+    background-color:  #7c9470;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid #7c9470;
+    border-radius: 60px;
+    box-shadow:  8px 10px rgba(177, 168, 32, 0.418);
+    padding: 40px 20px 30px 20px;
+    width: 200px;
+    text-align: center;
+
+}
+.producto img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 60%;
+}
+.nombre{
+    font-family:'ASTAKHOV FIRST';
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+    line-height: 1.4em;
+}
+.precio{
+    font-family:'ASTAKHOV FIRST';
+    font-size: 16px;
+    color: #ffffff;
+    box-sizing: border-box;
+    border: 2px solid #ce4895;
+    border-radius: 18px;
+    background-color: #ce4895;
+    margin: 0 0 15px 80px;
+}
+
+.eliminar{
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.icono-eliminar {
+    cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    right:85px;
+}
+
+.icono-eliminar img {
+    width: 24px;
+    height: 24px;
+}
+
+/* formulario*/
+.formulario{
+    width: 50%;
+    align-self: flex-start;
+}
+
+.titulo-formulario{
+    font-family: 'ASTAKHOV FIRST';
+    font-size: 30px;
+    width: 350px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #ebd634;
+    border: 8px solid black;
+    border-radius: 20px;
+}
+.contenido-formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    margin-top: 35px;
+}
+input {
+    width:250px;
+    background: #f0eaea;
+    font-family:'ASTAKHOV FIRST';
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 38px;
+}
+input::placeholder{
+    color: #d22486;
+    font-size: 18px;
+
+}
+.botones{
+    text-align: center;
+    margin-left: 12px;
+    display: flex;
+}
+
+.button-submit{
+    font-family:'ASTAKHOV FIRST';
+    font-size: 19px;
+    background-color: #000000;
+    color: #ebd634;
+    padding: 20px;
+    margin: 10px;
+}
+.button-borrar{
+    font-family:'ASTAKHOV FIRST';
+    color: #000000;
+    font-size: 19px;
+    padding: 20px;
+    border: none;
+}
+
+.footer {
+    color: #ffffff;
+    font-family:'ASTAKHOV FIRST';
+    line-height: 1.4em;
+    text-align: center;
+    background-color: #ce4895;
+    padding: 40px;
+    font-size: 20px;
+}
